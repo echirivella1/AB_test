@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { FirebaseService } from '../services/firebase';
+import { of } from 'rxjs';
+import { Platform } from '@ionic/angular';
 
 @Component({
   selector: 'app-tab1',
@@ -7,6 +10,20 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
-  constructor() {}
+  myFirebaseDemo = of('default value');
 
+  constructor(
+    private firebase: FirebaseService,
+    private platform: Platform
+  ) {}
+
+  async ionViewWillEnter() {
+    if (this.platform.is('hybrid')) {
+      await this.firebase.init();
+    }
+  }
+
+  ionViewDidEnter() {
+    this.myFirebaseDemo = this.firebase.getConfigValue('myFirebaseDemo');
+  }
 }
