@@ -1,7 +1,8 @@
 {
   "name": "AB_test",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }
