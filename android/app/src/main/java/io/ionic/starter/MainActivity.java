@@ -1,4 +1,4 @@
-package io.ionic.starter;
+package com.okode.abtest;
 
 import android.os.Bundle;
 
