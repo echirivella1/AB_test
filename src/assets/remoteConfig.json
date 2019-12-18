@@ -1,0 +1,343 @@
+{
+  "enabledVersion": true,
+  "isHomePromoEnabled": true,
+  "enabledAccessWithoutRegister": false,
+  "enabledOpinator": true,
+  "enabledCoachMarks": true,
+  "searchConfig": {
+    "showBetaLabel": true
+  },
+  "agendaHistory": {
+    "advanceMedical": true,
+    "chat": false,
+    "clinicPoint": false,
+    "gadaca": true
+  },
+  "appRating": {
+    "enabled": true,
+    "usesUntilRate": 10,
+    "promptForEachNewVersion": true
+  },
+  "serviceOnboarding": {
+    "maxTimesShown": 3
+  },
+  "servicePromocode": {
+    "videocall": false,
+    "chat": false,
+    "callmeback": false,
+    "omc": false,
+    "symptomchecker": false,
+    "instantvideocall": false
+  },
+  "consentNames": {
+    "general": "LOGIN_D",
+    "generalUsage": "GENERAL_USAGE",
+    "subscription": "SUSCRIP_D",
+    "payPerUse": "PAGOPORUSO_D",
+    "advanceMedical": "ADVANCEM_D",
+    "meetingDoctors": "MEETINGD_D",
+    "mediktor": "MEDIKTOR_D",
+    "commercial": "COMERCIAL_D",
+    "gadaca": "GADACA"
+  },
+  "supportTickets": [
+    {
+      "key": "Cobros, tarifas, facturas",
+      "priority": "Critical"
+    },
+    {
+      "key": "Devolución",
+      "priority": "Critical"
+    },
+    {
+      "key": "Incidencia técnica",
+      "priority": "Critical"
+    },
+    {
+      "key": "Métodos de pago",
+      "priority": "High"
+    },
+    {
+      "key": "Mi cuenta, mi perfil",
+      "priority": "Medium"
+    },
+    {
+      "key": "Mi suscripción o mis compras",
+      "priority": "High"
+    },
+    {
+      "key": "Información general",
+      "priority": "Low"
+    },
+    {
+      "key": "Otra duda o problema",
+      "priority": "Medium"
+    },
+    {
+      "key": "Calidad del servicio",
+      "priority": "High"
+    }
+  ],
+  "adviceNutritional": {
+    "tags": [
+      { "id": "nutrition_weight", "name": "Perder o ganar peso" },
+      { "id": "nutrition_healthy_habits", "name": "Hábitos saludables" },
+      { "id": "nutrition_diet", "name": "Asesoramiento para dietas" },
+      { "id": "nutrition_cholesterol", "name": "Colesterol" },
+      { "id": "nutrition_sports", "name": "Alimentación deportiva" },
+      { "id": "nutrition_diabetes", "name": "Diabetes" },
+      { "id": "nutrition_intolerances", "name": "Intolerancias alimeticias" },
+      { "id": "nutrition_hypertension", "name": "Dieta de hipertensión" }
+    ]
+  },
+  "opinator": [
+    {
+      "key": "onboarding",
+      "opiId": "Pantalla1",
+      "reach": {
+        "pro": 1,
+        "pre": 1,
+        "dev": 1
+      }
+    },
+    {
+      "key": "home",
+      "opiId": "hOndxdWX",
+      "reach": {
+        "pro": 0,
+        "pre": 0,
+        "dev": 0
+      }
+    },
+    {
+      "key": "doctor-detail",
+      "opiId": "AsW8oCzD",
+      "reach": {
+        "pro": 0.2,
+        "pre": 0.2,
+        "dev": 0.2
+      }
+    },
+    {
+      "key": "report-upload",
+      "opiId": "1FUsR1pr",
+      "reach": {
+        "pro": 1,
+        "pre": 1,
+        "dev": 1
+      }
+    },
+    {
+      "key": "videocall-success",
+      "opiId": "4EuglTDw",
+      "reach": {
+        "pro": 1,
+        "pre": 1,
+        "dev": 1
+      }
+    },
+    {
+      "key": "instant-videocall-success",
+      "opiId": "App_Videoconsulta_inmediata",
+      "reach": {
+        "pro": 1,
+        "pre": 1,
+        "dev": 1
+      }
+    },
+    {
+      "key": "chat-success",
+      "opiId": "Xa5eDhI3",
+      "reach": {
+        "pro": 1,
+        "pre": 1,
+        "dev": 1
+      }
+    },
+    {
+      "key": "symptomchecker-success",
+      "opiId": "App_Evaluador_Sintomas",
+      "reach": {
+        "pro": 0.2,
+        "pre": 0.2,
+        "dev": 0.2
+      }
+    },
+    {
+      "key": "omc-detail",
+      "opiId": "App_Medico_Responde",
+      "reach": {
+        "pro": 0.99999,
+        "pre": 0.99999,
+        "dev": 0.99999
+      }
+    },
+    {
+      "key": "callmeback-detail",
+      "opiId": "App_Llamada_Medico",
+      "reach": {
+        "pro": 0.99999,
+        "pre": 0.99999,
+        "dev": 0.99999
+      }
+    },
+    {
+      "key": "instant-videocall-success",
+      "opiId": "App_Videoconsulta_inmediata",
+      "reach": {
+        "pro": 1,
+        "pre": 1,
+        "dev": 1
+      }
+    }
+  ],
+  "consents": {
+    "LOGIN_D": {
+      "title": "Política de Privacidad",
+      "description": "A continuación te explicamos lo que hacemos con tus datos personales cuando usas nuestros servicios.",
+      "sections": [
+        {
+          "title": "¿Quiénes somos?",
+          "description": "Salud Savia es una aplicación móvil de <strong>Salud Digital Mapfre S.A.</strong>, con CIF A-88079983 y dirección postal en Carretera de Pozuelo, 50 - 28222, Majadahonda, Madrid."
+        },
+        {
+          "title": "¿Qué datos recabamos de ti?",
+          "description": "Cuando abres una cuenta en Savia por primera vez te pedimos:<ul><li>Un correo electrónico para identificar tu cuenta en nuestros sistemas. También nos permite contactarte de forma externa a la aplicación (ej.: para enviarte un código de seguridad).</li><li>Tu fecha de nacimiento para cumplir los requisitos de edad mínima.</li></ul>Más adelante podrás sumar a ello, en función de los servicios solicitados:<ul><li>Los nombres de los miembros de tu familia asociados a tu cuenta.</li><li>Un número de teléfono para que podamos contactarte cuando así lo solicites.</li></ul>Podremos además, en el curso de nuestros servicios, recabar algunos datos relativos a tu salud como:<ul><li>Perfil personal y archivos compartidos.</li><li>Citas médicas.</li><li>Histórico de compras.</li></ul><u>Nota técnica</u>: los datos relativos a tu salud están especialmente tutelados en la normativa aplicable. Es por eso que, con independencia de las bases legales más directamente aplicables a cada tratamiento (abajo expuestas), también nos apoyaremos en lo dispuesto en el artículo 9 del Reglamento General de Protección de Datos (“RGPD”) con relación al uso de tu información en el ámbito de la prestación de un diagnóstico médico o asistencia sanitaria (9.2.h RGPD), bajo el amparo de las reglas de secreto profesional aplicables a profesionales médicos autorizados (9.3 RGPD). En su defecto, y en los casos en que corresponda por necesidades de intermediación, sumaremos a ello tu consentimiento explícito (a tenor del 9.2.a RGPD)."
+        },
+        {
+          "title": "¿Con qué propósitos?",
+          "description": "Tus datos cumplen cuatro funciones distintas:<ol><li>Gestionar tu cuenta en Savia y poder prestar nuestros servicios de intermediación.</li><li>Hacer posible que los médicos asignados al servicio escogido te presten asistencia remota.</li><li>Recomendarte los servicios más relevantes para la información que hayas compartido con nosotros, incluyéndose aquí comunicaciones comerciales, promociones, descuentos o campañas.</li><li>Análisis de la información en agregado para la evaluación de mejoras.</li></ol>"
+        },
+        {
+          "title": "¿En qué base legal nos ampararmos?",
+          "description": "Nos amparamos en la necesidad contractual para gestionar tu cuenta en Savia y poder prestar nuestros servicios de intermediación, así como para permitir que los médicos asignados a los servicios que escojas te presten asistencia remota (6.1.b RGPD).<br><br>Nos amparamos en tu consentimiento para recomendarte otros servicios relevantes y realizar labores de análisis de datos agregados (6.1.a RGPD)."
+        },
+        {
+          "title": "¿Con quién los compartimos?",
+          "description": "Algunos de los servicios de Salud Savia están gestionados por terceras partes, pudiendo tratarse de:<ul><li>Prestadores independientes, frente a los que podrás ejercitar los mismos derechos abajo enumerados, incluyéndose aquí centros médicos y profesionales sanitarios.</li><li>Empresas encargadas de cubrir una función específica en nuestra cadena de valor (por ejemplo, gestionando un centro de recepción de llamadas) bajo nuestra completa supervisión.</li></ul><u>Nota técnica</u>: Aunque nos esforzamos por incorporar a nuevos prestadores de forma continuada, hacemos especial esfuerzo por garantizar que todos ellos conservan tus datos en la Unión Europea o terceros países identificados por la Comisión Europea como garantes de un nivel adecuado de protección.<br><br>Recabaremos tu consentimiento explícito en los casos en que los sistemas informáticos de un prestador se ubiquen en país que no cuente con un nivel adecuado de protección o, en el caso de estar basado en los Estados Unidos de América, no se haya dado de alta convenientemente en el registro PrivacyShield que regula las transferencias UE-EEUU.<br><br>Con independencia de todo lo anterior, también recabaremos tu consentimiento en los casos en que la prestación del servicio dependa de prestadores independientes que no actúen bajo nuestra supervisión (actuando en nombre propio como responsables independientes del tratamiento)."
+        },
+        {
+          "title": "¿Por cuánto tiempo los guardamos?",
+          "description": "Los conservaremos por el plazo mínimo al que nos obligue la ley con relación a los servicios solicitados, si bien podrás ejercitar tu derecho de eliminarlos (“supresión”) antes de cumplirse dicho plazo."
+        },
+        {
+          "title": "¿Qué derechos tienes?",
+          "description": "El marco normativo actual (Reglamento General de Protección de Datos, y su Ley Orgánica de desarrollo) te permite:<ul><li>Pedirnos confirmación de que estamos tratando tus datos, acceder a ellos y toda la información relacionada con su tratamiento.</li><li>Pedirnos que corrijamos los datos inexactos.</li><li>Pedirnos que eliminemos tus datos cuando ya nos sean necesarios para atenderte.</li><li>Solicitar la limitación del tratamiento de tus datos, y desde ese momento solo podremos tratarlos con tu consentimiento.</li><li>Oponerte al tratamiento, desde cuyo momento dejaremos de tratarlos.</li><li>Pedirnos la portabilidad de tus datos, para exportarlos a otros proveedores o sistemas (sin necesidad de que canceles tu cuenta o nos pidas que los eliminemos).</li><li>Retirar el consentimiento que hayas dado con anterioridad.</li></ul><u>Nota técnica</u>: Existen ciertas excepciones legales que nos permitirán volver a usar tus datos para el ejercicio o defensa de posibles reclamaciones o, en algunos casos, la protección de derechos de terceros.<br><br>Para ejercitarlos solo tendrás que escribirnos a: <a href=\"mailto:ocppd@saludsavia.com\">ocppd@saludsavia.com</a>.<br><br>O, por correo postal, a: Oficina Corporativa de Privacidad y Protección de Datos, Carretera de Pozuelo, 50 - 28222 Majadahonda - Madrid.<br><br>También puedes presentar una reclamación ante la Agencia Española de Protección de Datos, si consideras que no hemos respondido adecuadamente a tu petición."
+        }
+      ],
+      "accept_button": "He leído y acepto la Política de Privacidad"
+    },
+    "GENERAL_USAGE": {
+      "title": "Condiciones generales de uso",
+      "description": "Estas son las Condiciones Generales de Uso (“Condiciones de Uso”) que regulan la utilización del sitio Web y de la App (“Sitio”) que Savia pone a disposición del Usuario. Las Condiciones de Uso junto con el Aviso Legal, el Tratamiento de Datos Personales y la Política de Cookies constituyen en su conjunto los términos y condiciones que rigen el acceso y uso de la parte pública y privada del Sitio (”Términos y Condiciones del Uso”).<br><br>El acceso y utilización del Sitio por parte del Usuario supone que ha leído los Términos y Condiciones de Uso, los acepta en su totalidad y se obliga a cumplirlos por completo. El Usuario acepta que el acceso y uso del Sitio tiene lugar libre y conscientemente, bajo su única responsabilidad, y se compromete a hacer un uso adecuado y lícito del Sitio de conformidad con la legislación aplicable y los Términos y Condiciones de Uso. Deberá abstenerte de hacer un uso no autorizado o fraudulento del Sitio, utilizarlo con fines o efectos ilícitos, ilegales o contrarios a lo establecido en la legislación aplicable y en los Términos y Condiciones de Uso.<br><br>Savia se reserva el derecho a actualizar, modificar o eliminar partes de los Términos y Condiciones de Uso, que serán comunicadas al Usuario con el nuevo acceso, en cuyo caso publicará las modificaciones en el Sitio e indicará la fecha de la última revisión. El Usuario es el responsable de visitar el Sitio regularmente y consultar tales actualizaciones.<br><br>Savia se reserva el derecho a denegar o retirar el acceso al Sitio y/o a los servicios, en cualquier momento y sin necesidad de preaviso a todos aquellos Usuarios que incumplan los Términos y Condiciones de Uso.<br><br><ol> <li>¿Qué es Savia?</li> <li>Identificación de las partes</li> <li>Derechos de propiedad intelectual e industrial</li> <li>¿Qué puedes hacer con nuestra App?</li> <li>Productos y servicios</li> <li>Acceso y uso</li> <li>Registro</li> <li>Soporte y centro de ayuda</li> <li>Ley aplicable y jurisdicción</li></ol>",
+      "sections": [
+        {
+          "title": "1. ¿Qué es Savia?",
+          "description": "Savia es la marca y nombre comercial del Sitio y App, titularidad de SALUD DIGITAL MAPFRE, S.A. Desde el Sitio y App puedes acceder a diversos contenidos (artículos, noticias) relacionados con el mundo de la salud y contratar diferentes servicios de salud de forma ágil, entre los que se encuentran la cita médica online, servicios de teleasistencia médica (videoconsulta, chat médico, llamada de un médico), compra de productos, tratamientos o pruebas médicas.<br><br>Savia te permite también acceder a un perfil de salud a través del cual puedes gestionar todos los servicios contratados, almacenar tus datos, información o documentación de salud, recibir notificaciones o recomendaciones y llevar un control adecuado de tu salud y la de tu familia."
+        },
+        {
+          "description": "En cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico, Savia facilita a los Usuarios del Sitio los siguientes datos de información general: <br><br><ul><li>Denominación social: SALUD DIGITAL MAPFRE S.A</li><li>Nombre comercial: Savia</li><li>Número de Identificación Fiscal: A88079983.</li><li>Domicilio Social: Carretera de Pozuelo, 50. 28222, Majadahonda. Madrid  </li><li>Email de contacto: para cualquier consulta el Usuario puede ponerse en contacto a través de la dirección de email <a href=\"mailto:teayudamos@saludsavia.com\">teayudamos@saludsavia.com</a></li><li>Inscripción en el Registro Mercantil de Madrid, Tomo 37565, Fliio 61, Sección 8, Hoja M-669604.</li><ul>",
+          "title": "2. Identificación de Savia"
+        },
+        {
+          "title": "3. Propiedad intelectual e industrial",
+          "description": "SALUD DIGITAL MAPFRE, S.A es titular exclusivo o, en su caso, ostenta título legítimo suficiente de los derechos de propiedad intelectual e industrial sobre todos los contenidos del Sitio, entendiendo por éstos a título enunciativo, textos, fotografías, tecnología, software, links, dominios, nombres comerciales, signos distintivos, logotipos, marcas y demás contenidos audiovisuales o sonoros, así como su diseño gráfico y códigos fuente, correspondiéndole el ejercicio exclusivo de los derechos de explotación de los mismos, en cualquier forma, y en particular, de los derechos de reproducción, distribución, comunicación pública y transformación.<br><br>Cualquier uso indebido de tales elementos por persona diferente de su legítimo titular podrá ser perseguido de conformidad con la legislación vigente.<br><br>Queda prohibida la reproducción, distribución, comercialización, copia, transformación, comunicación pública, cesión, difusión o cualquier otra actuación análoga o similar vulneradora de los derechos de propiedad intelectual e industrial, así como la modificación o eliminación de cualquier tipo, de todo o parte, de los contenidos obtenidos o accedidos del Sitio.<br><br>El Usuario únicamente podrá realizar un uso privado y personal de los contenidos del Sitio, se obliga a utilizarlo de forma correcta y lícita, y no podrá, en ningún caso, establecer enlaces (“links”) en cualquier espacio accesible desde Internet y el Sitio."
+        },
+        {
+          "title": "4. Exclusión de responsabilidad",
+          "description": "El Sitio puede contener vínculos o enlaces a otros sitios web y aplicaciones de terceros. Savia no se hace responsable de los sitios web y aplicaciones de terceros a los que se acceda a través de Sitio, incluyendo la información contenida en los mismos.<br><br>Savia excluye cualquier responsabilidad por los daños y perjuicios de toda naturaleza que pudieran deberse o derivarse de la utilización del Sitio y que puedan estar causados por la falta de veracidad, exactitud, exhaustividad y/o autenticidad de la información que proporcione para la correcta prestación del servicio o utilización del Sitio y, en particular, por los daños y perjuicios de toda naturaleza que pudieren estar motivados por la suplantación de la personalidad de un tercero efectuada en su nombre en cualquier clase de comunicación realizada a través de Savia, incluyéndose, de igual forma, la exoneración por virus, malware o hackeo de cuentas o información.<br><br>Ocasionalmente, el Sitio podrá estar no disponible temporalmente por motivos de mantenimiento, técnicos, de seguridad, de control, fallos de suministro eléctrico, u otras causas fundadas. Savia no asume ningún tipo de responsabilidad por errores, omisiones, interrupciones, eliminaciones, defectos, retrasos de funcionamiento o de transmisión, fallos de la línea de comunicaciones o alteraciones de las comunicaciones del Usuario.<br><br>Savia no será en ningún caso responsable del uso que el Usuario y/o terceros pudieran hacer del Sitio ni de los daños y perjuicios que pudieran derivarse del mismo.<br><br>Savia garantiza que tiene suscritos acuerdos con centros, profesionales sanitarios y otro tipo de proveedores para ofrecer los servicios a aquellos usuarios que lo soliciten. Savia no será responsable de los retrasos, cumplimientos defectuosos, incumplimientos en la prestación del servicio cuando los mismos se debieran al incumplimiento del centro o profesional. El centro o profesional será el único responsable de cualquier obligación, derecho o resultado derivados de la prestación de sus servicios."
+        },
+        {
+          "title": "5. ¿Qué puedes hacer en nuestra Web y App Savia?",
+          "description": "Para utilizar el servicio Savia el Usuario debe tener acceso a Internet y un dispositivo compatible con Savia. El acceso y utilización del Sitio es público. El Usuario podrá navegar por el Sitio de manera gratuita, salvo en lo relativo al coste de la conexión a través de la red de telecomunicaciones suministrada por el proveedor de acceso por él contratado, y consumir nuestros servicios.<br><br>Savia ofrece servicios gratuitos y servicios de pago, para acceder a ellos es necesario que el Usuario se registre en el Sitio. Los servicios de pago se podrán consumir mediante la modalidad de <u>suscripción mensual</u> o mediante la modalidad de <u>pago por uso</u>."
+        },
+        {
+          "title": "6. Productos y servicios",
+          "description": "Savia posibilita al Usuario la adquisición de productos y servicios relacionados con la salud bajo acuerdos con terceros, los cuales intervienen en diferentes partes del proceso.<br><br>Alguno de los productos o servicios ofrecidos requiere del registro previo en el Sitio.<br><br>Los servicios de los que actualmente dispone Savia son los siguientes:<ul><li>Buscador de servicios médicos y soluciones (médicos y especialistas; clínicas y centros; información médica sobre enfermedades, pruebas y tratamientos).</li><li>Generación de un perfil de salud.</li><li>Servicios médicos de teleasistencia: videoconsulta, chat médico, un médico te llama.</li></ul><br><br>Los servicios ofertados, junto con las características principales de los mismos y su precio aparecen en pantalla. Savia podrá, en cualquier momento, añadir nuevos productos y/o servicios a los ofertados actualmente. Asimismo Savia se reserva el derecho a retirar o dejar de ofrecer, en cualquier momento, y sin previo aviso, cualquiera de los productos y servicios. La previsión anterior no afectará a aquellos productos y servicios que hayan sido objeto de contratación previa por el Usuario.<br><br>Savia no permite la contratación de productos y/o servicios para su posterior reventa. Así, la acreditación que se obtiene con la adquisición del producto y/o prestación del servicio adquirido es personal e intransferible."
+        },
+        {
+          "title": "7. Registro",
+          "description": "Para la adquisición de ciertos productos y servicios y para determinadas funcionalidades del Sitio es necesario el registro previo del Usuario a través del formulario de alta en el área de cliente dispuesto al efecto. El registro es gratuito y podrá registrase cualquier persona mayor de edad.<br><br>El Usuario se compromete a introducir datos veraces conforme a la legislación española, pudiendo ser residente en cualquier país del mundo. Desde el área de cliente podrán modificarse o actualizarse siempre que se desee o fuera necesario.<br><br>Los servicios del Sitio que requieran registro, sólo pueden ser utilizados por la persona que complete dicho proceso de registro. El Usuario registrado podrá dar de alta en su perfil a terceras personas. Los menores de 18 años no podrán utilizar los servicios del Sitio bajo registro propio si no es a través de un Usuario registrado del que dependan. Los datos propios o de terceras personas que el Usuario facilite están sujetos a la política de privacidad del Sitio.<br><br>Una vez registrado se enviará un correo electrónico de confirmación del registro con la finalidad de autenticar los datos que se hayan facilitado durante el proceso de registro.<br><br>El Usuario registrado deberá tener en cuenta que es el único responsable de: (i) la calidad de los datos introducidos en el formulario, que deberán ser veraces, exactos y completos, y deberá mantener actualizados; (ii) la seguridad de su contraseña e identificación; y (iii) del uso de su perfil de Usuario.<br><br>El Usuario se compromete a hacer un uso diligente y a no poner a disposición de terceros su nombre de Usuario y contraseña, así como a comunicar a Savia con la mayor brevedad, la pérdida, robo o cualquier riesgo de acceso a los mismos por un tercero.<br><br>Savia podrá rechazar cualquier registro de Usuario o cancelar un perfil de Usuario, y por tanto rechazar la contratación de sus servicios, siempre que detecte que los datos facilitados son contrarios a la verdad; la solicitud no se ajusta a los Términos y Condiciones de Uso; tenga pendiente de pago algún servicio contratado con anterioridad con Savia; o se constate que el uso desarrollado por el Usuario pone en riesgo el funcionamiento del servicio de otro cliente, o tenga sospecha de un acceso no autorizado. "
+        },
+        {
+          "title": "8. Soporte y centro de ayuda",
+          "description": "Queremos que el Usuario tenga la mejor experiencia de calidad con nosotros y sabemos que esta no termina al hacer uso de nuestros servicios. Por eso, ponemos a disposición del Usuario varios canales de comunicación a través del Sitio (chat, email….) a través de los cuales el Usuario puede ponerse en contacto con nosotros.<br><br>El chat está visible de lunes a viernes de  9:00 a 19:00. No obstante, fuera de este horario siempre estará la posibilidad de contactar mediante nuestro formulario. Sigue estos pasos:<ul><li>En el Sitio, accede al menú y selecciona “Centro de Ayuda”.</li><li>Puede resolver dudas con el “Buscador” o directamente pulsando las “Consultas más Frecuentes”.</li><li>En caso de no encontrar la respuesta puede pulsar “Contáctanos”, seleccionar del desplegable la opción correspondiente a la consulta y nuestro equipo dará respuesta vía email.</li><li>Pulsa “Enviar”</li></ul>"
+        },
+        {
+          "title": "9. Legislación aplicable y jurisdicción",
+          "description": "Las presentes Condiciones de Uso, así como la relación entre Savia y el Usuario, se regirán e interpretarán con arreglo a la ley española. Cualquier controversia que pudiera derivarse del acceso o utilización del Sitio se somete a los juzgados y tribunales que resulten competentes conforme a la legislación española."
+        }
+      ]
+    },
+    "SUSCRIP_D": {
+      "title": "Condiciones de suscripcion",
+      "description": "Las presentes Condiciones de Suscripción, junto con las Condiciones Generales de Uso, el Aviso Legal y la Política de Privacidad (“Términos y Condiciones del Uso”), regulan la adquisición de productos y servicios a través de la App (“Sitio”) de Savia por los Usuarios, sin perjuicio de la aceptación de condiciones particulares o específicas que pudieran ser de aplicación al adquirir determinados servicios. Para realizar cualquier compra o adherirse a un plan de suscripción es necesario el registro previo en el Sitio de Savia.<br><br>Las presentes Condiciones de Suscripción tendrán una duración indefinida. Savia se reserva el derecho a actualizarlas, modificarlas o sustituirlas, en cuyo caso, se publicarán en el Sitio indicando la fecha de la última revisión (recogida al final de este documento), y se comunicará su actualización, modificación o sustitución a aquellos Usuarios que tengan vigente un plan de suscripción con Savia.<br><br><ol><li>Contratación electrónica</li><li>Suscripción y servicios</li><li>Métodos de pago y facturación</li><li>Duración, modificación y terminación de la suscripción</li><li>Derecho de desistimiento</li><li>Soporte y centro de ayuda al Usuario</li><li>Responsabilidad y exoneración de responsabilidades</li></ol>",
+      "sections": [
+        {
+          "title": "1. Contratación electrónica",
+          "description": "El Usuario que desee adquirir un plan de suscripción ha de seguir los pasos de contratación clicando en el botón “suscribirse” que se muestra  junto al plan de suscripción que le interese, completando los datos que le serán solicitados y sin los cuales no podrá atenderse su solicitud. Se le mostrará el precio total del plan que desea contratar. Seguidamente el Usuario habrá de seleccionar la forma de pago, aceptar la casilla de <b>“He leído y acepto las <u>Condiciones de Uso</u>, la <u>Política de Privacidad</u> y las <u>Condiciones de Suscripción</u>”</b>, manifestando así su voluntad clara e inequívoca de contratar, y clicar en el botón “Autorizar y realizar Pago”.<br><br>El contrato de suscripción se entiende perfeccionado desde el mismo momento en que el Usuario finaliza el proceso presionando el botón “Autorizar y realizar Pagar” y el pago queda debidamente realizado.<br><br>El Usuario es el único responsable de la veracidad, exactitud y actualización de los datos proporcionados en los formularios de registro, suscripción y compra. Si el Usuario detecta cualquier error en los mismos deberá subsanarlos a través de su perfil dentro de la aplicación, “Área de Cliente”, a la que puede acceder en cualquier momento con su nombre de usuario y contraseña.<br><br>El idioma  en el que se formaliza el presente contrato es el castellano."
+        },
+        {
+          "title": "2. Suscripción y servicios",
+          "description": "<u>2.1 Planes de Suscripción</u><br><br>Con el plan de suscripción Savia Premium el Usuario tiene acceso a diferentes servicios.<br><br>La duración del plan de suscripción es mensual y renovable automáticamente. Asimismo su pago es mensual. Plan de Suscripción:<br><br><table><tr><th>Servicios<br>Plan<br>Suscripción</th><th>Savia Premium:<br>10 €/mes</th></tr><tr><td>Videoconsulta online</td><td>Uso ilimitado</td></tr><tr><td>Chat con médico</td><td>Acceso ilimitado</td></tr><tr><td>Un médico te llama</td><td>Llamadas ilimitadas</td></tr><tr><td>El médico responde</td><td>Mensajes ilimitados</td></tr><tr><td>Evaluador de síntomas</td><td>Uso ilimitado</td></tr></table><br><br>En ocasiones, dependiendo del consumo del Usuario podremos ofrecer distintos planes de suscripción de manera más personalizada.<br><br><u>2.2 Servicios.</u><br><br>La descripción general de los servicios ofertados junto con las características principales y su precio, incluido el IVA o impuesto correspondiente, aparecen en las pantallas del Sitio.<br><br><u><b>2.1 Servicio de Videoconsulta online:</b></u><br><br>Permite al Usuario hablar a través de videoconferencia con un médico de familia y compartir durante la conversación imágenes con el facultativo si éste lo considera necesario. El Usuario elige dentro del calendario de días y horas que están disponibles para realizar la videoconsulta, aquella que más que le convenga.<br><br>Durante el proceso de reserva de la cita puede indicarse el motivo de la consulta, lo que facilitará asignar al médico más adecuado para la atención de la misma.<br><br>Savia contactará por teléfono con el Usuario 15 minutos antes del inicio de la videoconsulta para confirmar que está preparado para la realización de la misma.<br><br>La Videoconsulta puede ser cancelada sin coste hasta 24 horas antesde la misma. No cabe ningún tipo de restitución o reembolso si la cancelación se produce con posterioridad (dentro delas 24h precedentes).<br><br>Si antes o durante la realización de la Videoconsulta se produce una incidencia técnica atribuible a Savia, Savia tratará de retomar la videoconferencia o de proponer una nueva fecha y hora. Si el Usuario decidiese cancelarla se le restituirá la videoconsulta.<br><br><u><b>2.2 Un Médico te llama</b></u><br><br>El profesional médico se pone en contacto con el Usuario mediante una llamada al número de teléfono que éste ha registrado, en un plazo máximo de dos horas. El Usuario recibirá previamente la llamada de un miembro del área de administración médica para informarle que le transferirá la llamada a un médico generalista disponible en el momento en el que el Usuario esté en línea. El servicio está disponible 24 horas los 365 días al año.<br><br><u><b>2.3 Servicio de Chat Médico:</b></u><br><br>Permite al Usuario contactar a través de un servicio de chat con un médico especialista o de familia, y compartir durante la conversación imágenes con el facultativo si éste lo cree necesario.<br><br>Al acceder al chat hay un listado de médicos disponibles con los que poder conversar, el Usuario elige con el que desee hablar. Los médicos pueden estar conectados en ese momento o no, indicándose entonces el horario de conexión, pero siempre hay médicos disponibles para atender cualquier consulta. Si se inicia la conversación con un médico conectado, éste responderá en menos de 2 minutos; si se envía un mensaje a un médico desconectado, éste contesta una vez se conecte en el horario que tenga establecido.<br><br><u><b>2.4 El Médico responde</b></u><br><br>Este servicio permite al usuario escribir un mensaje a un médico generalista que responderá al mismo dentro de las 24h laborables siguientes. El servicio está disponible 24 horas los 365 días al año.<br><br>El servicio se presta de manera colegiada y no individual, a pesar de iniciarse una consulta con un profesional en concreto Savia se reserva el derecho a que cualquiera de los profesionales médicos que presta el servicio continúe cualquier consulta. El servicio ofrecido es meramente orientativo basándose en la información facilitada por el Usuario, por lo que no será, en ningún caso, un diagnóstico médico, ni será equivalente a una asistencia médica, a una consulta, ni supondrá una atención de urgencia médica. El Usuario y el profesional médico serán los únicos responsables de los contenidos que incorporen y de las manifestaciones que realicena través de la aplicación.<br><br>En todos los casos de prestación de servicios médicos, el colaborador es un profesional de la medicina que cumple con todos los requisitos legales y reglamentarios para desarrollar su actividad. Así mismo garantiza la calidad en la prestación de los servicios y se obliga a prestarlos con la debida diligencia. El colaborador asume la responsabilidad por la prestación del acto médico, por lo que asume todos los costes y riesgos derivados de su actividad. No obstante lo anterior, en el caso de detectarse usos indebidos por parte del Usuario (contrarios a la buena praxis médicas por serle perjudiciales; inadecuados por irrespetuosos; que permitan actos de suplantación de identidad o engaño), Savia se reserva el derecho a bloquear el acceso al Usuario."
+        },
+        {
+          "title": "3. Métodos de pago y facturación",
+          "description": "Savia pone a disposición del Usuario dos métodos de pago: Tarjeta de crédito o débito. El Usuario puede facilitar uno o más medios de pago, así como modificarlos en el apartado “Configuración de la cuenta”, dentro de “Métodos de Pago”, cuando lo necesite.<br><br>El Usuario autoriza a Savia a cargar cada mes la correspondiente cuota de suscripción a través de cualquiera de los medios de pago que tenga comunicados, a menos que el Usuario cancele su suscripción con anterioridad a la fecha de facturación mensual (consulta ”Duración, modificación y terminación” más adelante). Si el método de pago principal indicado por el Usuario es rechazado o no está disponible Savia cargará la cuota en cualquier otro medio de pago asociado a la cuenta del Usuario.<br><br>El incumplimiento de pago ocurre en cualquier situación en la que Savia no ha recibido el pago oportuno, excluyendo aquellas causas que sean únicamente imputables a Savia, siendo el Usuario el responsable de cualquier importe no cobrado. Haremos todo lo posible por comunicar al Usuario cualquier fallo que hubiera en el pago, pero no estamos obligados a hacerlo. Ante el impago si el Usuario no cancela la suscripción podremos suspender el acceso al servicio hasta que hayamos cobrado.<br><br>El emisor de algunos métodos de pago puede cobrar ciertas tarifas por conceptos con cargos relacionados con el procesamiento de su método de pago. Savia no le cobrará más gastos adicionales que los que le sean cargados a la entidad por el uso de determinadas formas de pago, de ello será informado. El Usuario no recibirá ningún gasto que no haya sido previamente informado y/o aceptado expresamente por él.<br><br><b>La facturación de la primera cuota de suscripción mensual se realizará en la fecha de su contratación, y para los meses siguientes en los cinco primeros días de cada mes.</b><br><br>El cobro por la adquisición de productos y servicios se realizará en el momento de la compra a través del medio de pago indicado en ese momento por el usuario.<br><br>Cuando corresponda la devolución de algún pago, Savia utilizará para su reembolso el mismo medio de pago empleado por el Usuario en la transacción inicial.<br><br>Podrás consultar tu facturación en “Planes y suscripciones” dentro del menú de tu App."
+        },
+        {
+          "title": "4. Duración, modificación y terminación de la suscripción",
+          "description": "<u>4.1. Planes de suscripción.</u> Tienen <b>vigencia desde el día de su adquisición</b> y hasta el último día del mes de contratación. Llegada la fecha de su vencimiento la suscripción <b>se renueva automáticamente por períodos mensuales</b> salvo que el Usuario comunique su deseo de no continuar o renovar el plan con anterioridad a la fecha de su facturación mensual.<br><br>En el caso de actualización, modificación o sustitución de las presentes condiciones, Savia realizará una comunicación al Usuario al que le sea de aplicación quien podrá decidir libremente si las acepta o si deja de usar nuestro servicio de suscripción, en este último caso habrá de comunicarnos su voluntad de no continuar con el servicio. Se entiende que si el Usuario continúa haciendo uso del servicio de suscripción que tenga contratado después de una actualización de estas condiciones, las acepta.<br><br>No obstante es importante que el Usuario conozca que ningún cambio de precio o de los planes de suscripción le afectará hasta el siguiente mes de facturación desde que la modificación de las condiciones le fuera comunicada.<br><br>El Usuario puede cancelar la suscripción en cualquier momento sin ningún tipo de penalización siempre que lo comunique en “Planes y suscripciones” dentro del menú del Sitio.<br><br>Seguirá teniendo acceso a los servicios contratados de Savia hasta el final del periodo mensual facturado. En el caso de que se tuviera algún servicio programado con posterioridad a la finalización del periodo de facturación podrá igualmente hacer uso del mismo.<br><br>En la medida en que lo permita la ley, los pagos no son reembolsables y no facilitamos devoluciones ni abonos por períodos parciales de suscripción mensual.<br><br><u>4.2 Compra de servicios.</u> Su duración viene determinada por las condiciones de prestación del servicio (véase arriba “Servicios”).<br><br>En el caso de que Savia realice actualizaciones, modificaciones o sustituya las presentes condiciones, que serán publicadas en el Sitio indicando su fecha, las mismas no afectarán a aquellos productos y servicios que hayan sido objeto de contratación previa por el Usuario."
+        },
+        {
+          "title": "5. Derecho de desistimiento",
+          "description": "Cuando este derecho sea de aplicación, de conformidad con la legislación vigente, el Usuario podrá resolver el contrato durante los primeros 14 días naturales desde la celebración del mismo sin necesidad de indicar el motivo alguno ni incurrir en ningún coste, a excepción de los previstos en el artículo 107.2 y 108 del Real Decreto 1/2007, de 16 de noviembre, por el que se aprueba el texto refundido de la Ley General para la Defensa de los Consumidores y Usuarios. Este derecho de desistimiento no es aplicable a prestación de servicios ya realizados o comenzados.<br><br>El Usuario ha de comunicar a Savia su deseo de ejercitar este derecho a través del Sitio pulsando el enlace “desistimiento”. El desistimiento implica la suspensión del servicio y extingue el contrato. Savia comunicará al Usuario el acuse de recibo de su desistimiento y devolverá, en el plazo máximo de 14 días desde la fecha de desistimiento, el importe recibido del Usuario utilizando el mismo medio de pago siempre que el servicio contratado no esté dentro de las excepciones indicadas).<br><br>Cuando un Usuario ejerza el derecho de desistimiento por la prestación de un servicio, abonará un importe proporcional a la parte ya prestada del servicio en el momento en el que informó a Savia de su desistimiento, importe que se calculará sobre la base del precio total acordado."
+        },
+        {
+          "title": "6. Soporte y centro de ayuda al Usuario",
+          "description": "El Usuario puede ponerse en contacto con Savia a través de Sitio, vía chat o email.<br><br>El chat está visible de lunes a viernes de 9:00 a 19:00. Fuera de este horario siempre estará la posibilidad de contactar mediante nuestro formulario:<br><br>Sigue estos pasos:<br><br><ul><li>En el Sitio, accede al menú y selecciona “Centro de Ayuda”.</li><li>Puedes resolver tus dudas con el “Buscador” o directamente pulsando las “Consultas más Frecuentes”.</li><li>En caso de no encontrar la respuesta puedes pulsar “Contáctanos” selecciona del desplegable la opción correspondiente a tu consulta y nuestro equipo dará respuesta vía email.</li><li>Pulsa “Enviar”</li></ul><br>El Usuario podrá interponer cualquier queja o reclamación contactando a través del formulario arriba indicado, en la dirección de correo electrónico <a href=\"mailto:teayudamos@saludsavia.com\">teayudamos@saludsavia.com</a> o en la dirección postal C/ Doctor Esquerdo 138, 28007 Madrid.<br><br>Informamos igualmente al Usuario que la Comisión Europea facilita a los consumidores una plataforma de resolución de litigios en línea, en la que podrán someter sus reclamaciones, que está disponible en el siguiente enlace: <a onclick=\"window.dispatchEvent(new CustomEvent('openExternalLink', { detail: { url: 'http://ec.europa.eu/consumer/odr' } }))\">http://ec.europa.eu/consumer/odr</a>."
+        },
+        {
+          "title": "7. Responsabilidad y exoneración de responsabilidades",
+          "description": "Savia podrá suspender, retirar o cancelar parcial o totalmente los servicios no sometidos a contratación en cualquier momento y sin necesidad de aviso previo. Esto no afectará a aquellos servicios que estén reservados o que sean objeto de contratación previa y que se regirán por sus condiciones específicas.<br><br>La descripción de los productos y servicios ofertados en la Web/App se realiza en base a la información proporcionada por los colaboradores de Savia, con el fin de dar la mayor información sobre el servicio y sus características, pero no es exhaustiva, motivo por el cual Savia rechaza cualquier información no elaborada directamente por Savia, así como se reserva el derecho a actualizar los contenidos, eliminarlos, limitarlos o impedir el acceso a los mismos de forma temporal o definitiva.<br><br>Así mismo, Savia no será responsable de aquellos contenidos, datos o informaciones, que hubieran sido introducidos, mostrados o modificados por terceros.<br><br>Savia se compromete a poner todos sus esfuerzos en tener a disposición del Usuario todos los productos y servicios ofrecidos en su Web/App. No obstante, Savia se exime de cualquier responsabilidad derivado de la indisponibilidad de productos y/o servicios ofrecidos a través de la aplicación cuando ello sea por fuerza mayor, robo o pérdida, o error en el pedido o en los datos facilitados por el Usuario."
+        }
+      ],
+      "accept_button": "He leído y acepto las condiciones"
+    },
+    "PAGOPORUSO_D": {
+      "title": "Condiciones de pago por uso",
+      "description": "Las presentes Condiciones de Compra, junto con las Condiciones Generales de Uso, el Aviso Legal y la Política de Privacidad (“Términos y Condiciones del Uso”), regulan la adquisición de productos y servicios a través de la Web y App (“Sitio”) de Savia por los Usuarios, sin perjuicio de la aceptación de condiciones particulares o específicas que pudieran ser de aplicación al adquirir determinados servicios. Para realizar cualquier compra es necesario el registro previo en el Sitio de Savia.<br><br>Las presentes Condiciones de Compra tendrán una duración indefinida. Savia se reserva el derecho a actualizarlas, modificarlas o sustituirlas, en cuyo caso, se publicarán en el Sitio indicando la fecha de la última revisión (recogida al final de este documento). Aquellos productos y servicios que hayan sido objeto de contratación previa se regirán por las condiciones del momento de contratación.<br><br><ol><li>Contratación electrónica</li><li>Servicios.</li><li>Métodos de pago y facturación</li><li>Duración, modificación y terminación del contrato</li><li>Derecho de desistimiento</li><li>Soporte y centro de ayuda al Usuario</li><li>Responsabilidad y exoneración de responsabilidades</li></ol>",
+      "sections": [
+        {
+          "title": "1. Contratación electrónica",
+          "description": "El Usuario que desee comprar los productos y los servicios del Sitio (“contrato de compra”) de Savia ha de seguir los pasos de contratación clicando en el botón “autorizar pago” que se muestra  junto al producto/servicio que le interese, completando los datos que le serán solicitados y sin los cuales no podrá atenderse su solicitud. Se le mostrará el precio total del servicio que desea contratar. Seguidamente el Usuario habrá de seleccionar la forma de pago, aceptar la casilla de “He leído y acepto las Condiciones de Uso, la Política de Privacidad y las Condiciones de Compra”, manifestando así su voluntad clara e inequívoca de contratar, y clicar en el botón “Confirmar pago”.<br><br>El contrato de compra se entiende perfeccionado desde el mismo momento en que el Usuario finaliza el proceso presionando el botón “Confirmar pago” y el pago queda debidamente realizado.<br><br>El Usuario es el único responsable de la veracidad, exactitud y actualización de los datos proporcionados en los formularios de registro y compra. En el caso en que detecte cualquier error en los mismos deberá subsanarlos a través de su perfil dentro de la aplicación, “Área de Cliente”, a la que puede acceder en cualquier momento con su nombre de usuario y contraseña.<br><br>El idioma  en el que se formaliza el presente contrato es el castellano."
+        },
+        {
+          "title": "2. Servicios",
+          "description": "Savia pone a disposición servicios y productos para su adquisición de forma individualizada a través del pago por uso. El Usuario compra el servicio cada vez que desee utilizarlo. Tarifas disponibles de los servicios:<br><br><table><tr><th>Servicios</th><th>Pago por uso</th></tr><tr><td>Videoconsulta online</td><td>9,90€/ud</td></tr><tr><td>Chat médico</td><td>2,90€ acceso 72h</td></tr><tr><td>Un médico te llama</td><td>2,90€/ud</td></tr><tr><td>El médico responde</td><td>2,90€/ud</td></tr></table>La descripción general de los servicios ofertados junto con las características principales y su precio, incluido el IVA o impuesto correspondiente, aparecen en las pantallas del Sitio.<br><br><ul><li>Servicio de Videoconsulta: Permite al Usuario hablar a través de videoconferencia con un médico de familia y compartir durante la conversación imágenes con el facultativo si éste lo considera necesario. El Usuario elige dentro del calendario de días y horas que están disponibles para realizar la videoconsulta aquella que más que le convenga.<br><br>Durante el proceso de reserva de la cita puede indicarse el motivo de la consulta, lo que facilitará asignar al médico más adecuado para la atención de la misma.<br><br>Savia contactará por teléfono con el Usuario 15 minutos antes del inicio de la videoconsulta para confirmar que está preparado para la realización de la misma.<br><br>La Videoconsulta puede ser cancelada sin coste hasta 24 horas antes de la misma. No cabe ningún tipo de restitución de la cita o de reembolso si la cancelación se produce con posterioridad (dentro de las 24h precedentes a la cita).<br><br>Si antes o durante la realización de la Videoconsulta se produce una incidencia técnica atribuible a Savia tratará de retomar la videoconferencia o de proponer una nueva fecha y hora. Si el Usuario decidiese cancelarla se le reembolsará el importe de la misma.</li><br><li>Un Médico te llama: El profesional médico se pone en contacto con el Usuario mediante una llamada al número de teléfono que éste ha registrado, en un plazo máximo de dos horas. El Usuario recibirá previamente la llamada de un miembro del área de administración médica para informarle que le transferirá la llamada a un médico generalista disponible en el momento en el que el Usuario esté en línea. El servicio está disponible 24 horas los 365 días al año.</li><br><li>Servicio de Chat Médico: permite al Usuario contactar a través de un servicio de chat con un médico especialista o de familia, y compartir durante la conversación imágenes con el facultativo si éste lo cree necesario.<br><br>Al acceder al chat hay un listado de médicos disponibles con los que poder conversar, el Usuario elige con el que desee hablar. Los médicos pueden estar conectados en ese momento o no, indicándose entonces el horario de conexión, pero siempre hay médicos disponibles para atender cualquier consulta. Si se inicia la conversación con un médico conectado este responderá en menos de 2 minutos; si se envía un mensaje a un médico desconectado, éste contesta una vez se conecte en el horario que tenga establecido.<br><br>El servicio se presta de manera colegiada y no individual, a pesar de iniciarse una consulta con un profesional en concreto Savia se reserva el derecho a que cualquiera de los profesionales médicos que presta el servicio continúe cualquier consulta. El servicio ofrecido es meramente orientativo basándose en la información facilitada por el Usuario, por lo que no será, en ningún caso, un diagnóstico médico, ni será equivalente a una asistencia médica, a una consulta, ni supondrá una atención de urgencia médica. El usuario y el profesional médico serán los únicos responsables de los contenidos que incorporen y de las manifestaciones que realicen a través de la aplicación.</li><br><li>El médico responde: Este servicio permite al usuario escribir un mensaje a un médico generalista que responderá al mismo dentro de las 24h laborables siguientes. El servicio está disponible 24 horas los 365 días al año.</li></ul><br><b>Servicios médicos presenciales</b>: Aquellos que se prestan en las instalaciones y que permiten al usuario, en función del servicio adquirido, entre otros, acudir a consulta de médico privado, o realizarse pruebas diagnósticas y funcionales, actos terapéuticos o intervenciones quirúrgicas en clínicas y hospitales. Para esto recibirás por email un bono con todos los detalles de la reserva disponiendo de 3 meses para pedir cita y realizarte la prueba o ver al médico.<br><br>En todos los casos de prestación de servicios médicos, el colaborador es un profesional de la medicina que cumple con todos los requisitos legales y reglamentarios para desarrollar su actividad. Asimismo garantiza la calidad en la prestación de los servicios y se obliga a prestarlos con la debida diligencia. El colaborador asume la responsabilidad por la prestación del acto médico, por lo que asume todos los costes y riesgos derivados de su actividad. No obstante lo anterior, en el caso de detectarse usos indebidos por parte del Usuario (contrarios a la buena praxis médica por serle perjudiciales; inadecuados por irrespetuosos; que permitan actos de suplantación de identidad o engaño), Savia se reserva el derecho a bloquear el acceso al Usuario."
+        },
+        {
+          "title": "3. Métodos de pago y facturación",
+          "description": "Savia pone a disposición del Usuario dos métodos de pago: Tarjeta de crédito o débito.<br><br>El cobro de los servicios y productos se realizará en el momento de la compra a través del medio de pago elegido por el Usuario.<br><br>El emisor de algunos métodos de pago puede cobrar ciertas tarifas por conceptos con cargos relacionados con el procesamiento de su método de pago. Savia no le cobrará más gastos adicionales que los que le sean cargados a la entidad por el uso de determinadas formas de pago, de ello será informado. El Usuario no recibirá ningún gasto que no haya sido previamente informado y/o aceptado expresamente por él.<br><br>Cuando corresponda la devolución de algún pago, Savia utilizará para su reembolso el mismo medio de pago empleado por el Usuario en la transacción inicial."
+        },
+        {
+          "title": "4. Duración, modificación y terminación del contrato",
+          "description": "La duración del contrato viene determinada por las condiciones de prestación del servicio (véase arriba  “Servicios”).<br><br>En el caso de que Savia realice actualizaciones, modificaciones o sustituya las condiciones del contrato de compra, que serán publicadas en el Sitio indicando su fecha, las mismas no afectarán a aquellos productos y servicios que hayan sido objeto de contratación previa por el Usuario."
+        },
+        {
+          "title": "5. Derecho de desistimiento",
+          "description": "Cuando este derecho sea de aplicación, de conformidad con la legislación vigente, el Usuario podrá resolver el contrato durante los primeros 14 días naturales desde la celebración del mismo sin necesidad de indicar el motivo alguno ni incurrir en ningún coste, a excepción de los previstos en el artículo 107.2 y 108 del Real Decreto 1/2007, de 16 de noviembre, por el que se aprueba el texto refundido de la Ley General para la Defensa de los Consumidores y Usuarios. Este derecho de desistimiento no es aplicable a prestación de servicios ya realizados o comenzados.<br><br>El Usuario ha de comunicar a Savia su deseo de ejercitar este derecho a través del Sitio pulsando el enlace “desistimiento”. El desistimiento implica la suspensión del servicio y extingue el contrato. Savia comunicará al Usuario el acuse de recibo de su desistimiento y devolverá, en el plazo máximo de 14 días desde la fecha de desistimiento, el importe recibido del Usuario utilizando el mismo medio de pago  (siempre que el servicio contratado no esté dentro de las excepciones indicadas).<br><br>Cuando un Usuario ejerza el derecho de desistimiento por la prestación de un servicio, abonará un importe proporcional a la parte ya prestada del servicio en el momento en el que informó a Savia de su desistimiento, importe que se calculará sobre la base del precio total acordado."
+        },
+        {
+          "title": "6. Soporte y centro de ayuda al Usuario",
+          "description": "El Usuario puede ponerse en contacto con Savia a través de Sitio, vía chat o email.<br><br>El chat está visible de lunes a viernes de 9:00 a 19:00. Fuera de este horario siempre estará la posibilidad de contactar mediante nuestro formulario:<br><br>Sigue estos pasos:<br><br><ul><li>En el Sitio, accede al menú y selecciona “Centro de Ayuda”.</li><li>Puedes resolver tus dudas con el “Buscador” o directamente pulsando las “Consultas más Frecuentes”.</li><li>En caso de no encontrar la respuesta puedes pulsar “Contáctanos” selecciona del desplegable la opción correspondiente a tu consulta y nuestro equipo dará respuesta vía email.</li><li>Pulsa “Enviar”</li></ul><br>El Usuario podrá interponer cualquier queja o reclamación contactando a través del formulario arriba indicado, en la dirección de correo electrónico <a href=\"mailto:teayudamos@saludsavia.com\">teayudamos@saludsavia.com</a> o en la dirección postal C/ Doctor Esquerdo 138, 28007 Madrid.<br><br>Informamos igualmente al Usuario que la Comisión Europea facilita a los consumidores una plataforma de resolución de litigios en línea, en la que podrán someter sus reclamaciones, que está disponible en el siguiente enlace: <a onclick=\"window.dispatchEvent(new CustomEvent('openExternalLink', { detail: { url: 'http://ec.europa.eu/consumer/odr' } }))\">http://ec.europa.eu/consumer/odr</a>."
+        },
+        {
+          "title": "7. Responsabilidad y exoneración de responsabilidades",
+          "description": "Savia podrá suspender, retirar o cancelar parcial o totalmente los servicios no sometidos a contratación en cualquier momento y sin necesidad de aviso previo. Esto no afectará a aquellos servicios que estén reservados o que sean objeto de contratación previa y que se regirán por sus condiciones específicas.<br><br>La descripción de los productos y servicios ofertados en la Web/App se realiza en base a la información proporcionada por los colaboradores de Savia, con el fin de dar la mayor información sobre el servicio y sus características, pero no es exhaustiva, motivo por el cual Savia rechaza cualquier información no elaborada directamente por Savia, así como se reserva el derecho a actualizar los contenidos, eliminarlos, limitarlos o impedir el acceso a los mismos de forma temporal o definitiva.<br><br>Así mismo, Savia no será responsable de aquellos contenidos, datos o informaciones, que hubieran sido introducidos, mostrados o modificados por terceros.<br><br>Savia se compromete a poner todos sus esfuerzos en tener a disposición del Usuario todos los productos y servicios ofrecidos en su Web/App. No obstante, Savia se exime de cualquier responsabilidad derivado de la indisponibilidad de productos y/o servicios ofrecidos a través de la aplicación cuando ello sea por fuerza mayor, robo o pérdida, o error en el pedido o en los datos facilitados por el Usuario."
+        }
+      ],
+      "accept_button": "He leído y acepto las condiciones"
+    }
+  }
+}
