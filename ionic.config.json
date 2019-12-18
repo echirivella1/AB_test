@@ -1,0 +1,7 @@
+{
+  "name": "AB_test",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
