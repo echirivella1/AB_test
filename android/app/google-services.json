@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "313674011158",
+    "firebase_url": "https://ab-test-b542e.firebaseio.com",
+    "project_id": "ab-test-b542e",
+    "storage_bucket": "ab-test-b542e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313674011158:android:2319082edb64add8661b37",
+        "android_client_info": {
+          "package_name": "com.okode.abtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313674011158-v8bnnoiplut23mch6njqii1so9k1lu4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNZMVDLVw3sYu5t_vCZN8bb8fjv8dyC10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313674011158-v8bnnoiplut23mch6njqii1so9k1lu4m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "313674011158-6neg889vb0eh7phgrbdf34ancksjpdn8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.okode.abtest"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
