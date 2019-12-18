@@ -5,12 +5,18 @@
     </ion-title>
   </ion-toolbar>
 </ion-header>
-
 <ion-content>
     <ion-card class="welcome-card">
-      <img src="/assets/shapes.svg" alt="" />
+
+      {{ myFirebaseDemo | async }}
+      
+      <div style="width: 100%">
+        <svg width="250" height="100" style="display: block; margin: auto">
+          <rect width="250" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+        </svg>
+      </div>
       <ion-card-header>
-        <ion-card-subtitle>Get Started</ion-card-subtitle>
+        <ion-card-subtitle class="blue">Get Started</ion-card-subtitle>
         <ion-card-title>Welcome to Ionic</ion-card-title>
       </ion-card-header>
       <ion-card-content>
@@ -38,4 +44,7 @@
         <ion-label>Theme Your App</ion-label>
       </ion-item>
     </ion-list>
+
+
+
 </ion-content>
