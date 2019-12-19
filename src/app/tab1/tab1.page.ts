@@ -9,9 +9,6 @@ import { Platform } from '@ionic/angular';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
-
-  myFirebaseDemo = of('default value');
-
   abTestBlue = false; // By default, do not enable a specific AB case
 
   constructor(
