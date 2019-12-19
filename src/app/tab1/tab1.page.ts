@@ -12,18 +12,13 @@ export class Tab1Page {
 
   myFirebaseDemo = of('default value');
 
+  abTestBlue = false; // By default, do not enable a specific AB case
+
   constructor(
-    private firebase: FirebaseService,
-    private platform: Platform
+    private firebase: FirebaseService
   ) {}
 
   async ionViewWillEnter() {
-    if (this.platform.is('hybrid')) {
-      await this.firebase.init();
-    }
-  }
-
-  ionViewDidEnter() {
-    this.myFirebaseDemo = this.firebase.getConfigValue('myFirebaseDemo');
+    this.firebase.getConfigValue('ab_test_tabOne_blue').subscribe(value => this.abTestBlue = value);
   }
 }
