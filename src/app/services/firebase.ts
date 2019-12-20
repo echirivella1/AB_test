@@ -81,7 +81,7 @@ export class FirebaseService {
       this.setReady();
     };
     // Config cached one hour
-    CommunityPlugins.Firebase.fetch({ cache: 5000000 }).then(() => {
+    CommunityPlugins.Firebase.fetch({ cache: 3600 }).then(() => {
       CommunityPlugins.Firebase.activateFetched().then(async (res) => {
         if (res && res.activated) {
           console.log(`Firebase activateFetched: there was a config and it was activated`);
