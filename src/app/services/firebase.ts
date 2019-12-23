@@ -12,13 +12,17 @@ const VERSION = '0.0.1';
 const VERSIONCODE = '1';
 const ENVNAME = 'dev';
 
+const AB_TEST_PREFIX = 'ab_test_';
+
 @Injectable()
 export class FirebaseService {
 
   static readonly VERSION_DISABLED_EVENT = 'digitalhealth_version_disabled';
 
   private config;
+  private abTestsConfig;
   private readonly localConfig = 'assets/remoteConfig.json';
+  private readonly localAbTestsConfig = 'assets/abTestsRemoteConfig.json';
   private readonly lastConfigStoredKey = 'digitalhealth_last_config_stored';
   private readonly lastVersionCodeConfigStored = 'digitalhealth_last_version_code_config_stored';
 
@@ -80,6 +84,9 @@ export class FirebaseService {
       });
       this.setReady();
     };
+
+    this.asyncLoadAbTestsLocalData();
+
     // Config cached one hour
     CommunityPlugins.Firebase.fetch({ cache: 3600 }).then(() => {
       CommunityPlugins.Firebase.activateFetched().then(async (res) => {
@@ -118,6 +125,13 @@ export class FirebaseService {
     );
   }
 
+  getAbTestConfigValue(key: string) {
+    const configKey = `${AB_TEST_PREFIX}${key}`;
+    return this.ready().pipe(
+      switchMap(() => of(this.abTestsConfig[configKey]))
+    );
+  }
+
   private checkIfVersionEnabled() {
     this.getConfigValue('enabledVersion').subscribe((isVersionEnabled: boolean) => {
       if (isVersionEnabled === false) {
@@ -146,6 +160,21 @@ export class FirebaseService {
       console.error(`Error loading local config getRemoteConfigLocalData:`, this.localConfig);
     }
     return config;
+  }
+
+  private asyncLoadAbTestsLocalData() {
+    return this.http.get(this.localAbTestsConfig).subscribe(async abTestsConfig => {
+      if (!abTestsConfig) { return null; };
+
+      this.abTestsConfig = abTestsConfig;
+      for (const configKey of Object.keys(this.abTestsConfig)) {
+        console.log('Getting A/B test value for key', configKey);
+        const res = await CommunityPlugins.Firebase.getRemoteConfigValue({ key: configKey });
+        if (res && res.value) {
+          this.abTestsConfig[configKey] = res.value;
+        }
+      }
+    });
   }
 
   // Analytics - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
